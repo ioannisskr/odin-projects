@@ -1,0 +1,115 @@
+* {
+    margin: 0 ;
+    padding: 0% auto;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff7f1;
+    margin: 0 10px;
+    padding: 0%;
+}
+
+h3 {
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    font-size: 70px;
+    font-weight: 400;
+}
+
+h4 {
+    text-align: left;
+    font-family: "Pacifico", cursive;
+    font-size: 38px;
+    font-weight:100;
+    margin-bottom: 10px;
+}
+
+h5 {
+
+    text-align: left;
+    font-family: "Pacifico", cursive;
+    font-size: 20px;
+    font-weight:200;
+}
+
+p {
+    text-align: left;
+    font-family: "Poetsen One", sans-serif;
+    font-size: 16px;
+    font-weight: 100;   
+}
+
+.margin-top {
+    margin-top: 30px;
+}
+
+
+.paragraph-margin {
+    margin-bottom: 30px;
+}
+ul, ol {
+    text-align: left;
+    font-family: "Poetsen One", sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.image {
+    display:flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.image img {
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+    width: 35%;
+}
+/* .back {
+    margin-bottom: 0;
+} */
+.header {
+    margin-bottom: 30px;
+}
+.header h3 {
+    font-family: "Pacifico", cursive;
+    font-weight: 500;
+    text-align: center;
+}
+
+.header a {
+    color: black;
+    text-decoration: none;
+}
+
+.header:hover a {
+    color: rgb(22, 22, 22);
+    text-shadow: 0 0 0.75px black;
+    text-decoration: none;
+}
+
+.back {
+    margin-top: 0;
+    padding-top: 0;
+}
+.back h4 {
+    font-family: "Pacifico", cursive;
+    font-size:32px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.back a {
+    color: black;
+    text-decoration: none;
+}
+
+.back:hover a {
+    color: rgb(22, 22, 22);
+    text-shadow: 0 0 0.75px black;
+    text-decoration: none;
+}
